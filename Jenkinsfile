@@ -1,6 +1,6 @@
 node('master')
 {
-    stage('ContinuousDownload') 
+    stage('ContDownload') 
     {
         git 'https://github.com/intelliqittrainings/maven.git'
     }
